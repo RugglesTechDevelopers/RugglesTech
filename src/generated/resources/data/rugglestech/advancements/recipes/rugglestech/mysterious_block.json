@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rugglestech:mysterious_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "mysterious": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rugglestech:mysterious_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "mysterious",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rugglestech:mysterious_block"
+    ]
+  }
+}

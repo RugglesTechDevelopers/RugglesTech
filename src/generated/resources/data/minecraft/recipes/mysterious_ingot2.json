@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "rugglestech:raw_mysterious_chunk"
+  },
+  "result": "rugglestech:mysterious_ingot"
+}

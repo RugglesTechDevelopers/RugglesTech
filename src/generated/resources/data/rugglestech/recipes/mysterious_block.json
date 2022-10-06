@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rugglestech",
+  "key": {
+    "x": {
+      "item": "rugglestech:mysterious_ingot"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "result": {
+    "item": "rugglestech:mysterious_block"
+  }
+}
